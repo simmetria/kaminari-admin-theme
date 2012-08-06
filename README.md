@@ -11,9 +11,15 @@ gem 'kaminari'
 gem 'kaminari-admin-theme'
 ```
 
-And run: `bundle install`.
+And run: `bundle install`
 
 ## Usage
+
+Render pagination with a theme:
+
+```ruby
+= paginate @posts, :theme => 'admin_theme'
+```
 
 You can generate views by running:
 
